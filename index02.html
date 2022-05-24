@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo Pokémon</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="Imagenss/dragon.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="container">
+    <img src="#" class="page-logo" alt="">
+
+    <h1 class="page-title">SUPER TRUNFO</h1>
+    
+    <button onclick="sortearPersonagem()" id="btnSortear">Sortear carta</button>
+    <form id="form">
+      <h2>Que Começe a Batalha!.</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="Imagenss/carta01.jpeg" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="Imagenss/carta02.jpeg" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Play</button>
+      <div id="resultado"></div>
+    </form>
+    <img src="Imagenss/Logopit_(2).png" class="page-logo" alt="">
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
